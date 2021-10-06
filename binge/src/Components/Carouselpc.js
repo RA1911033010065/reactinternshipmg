@@ -3,7 +3,7 @@ import React from "react";
 const Carouselpc = () => {
   return (
     <>
-    <h1>hello</h1>
+    
       <div
         id="carouselExampleCaptions"
         class="carousel slide"

@@ -4,10 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Navbarpc = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            PRIME VIDEO LOGO
+          <a className="navbar-brand" href="#" style={{color:"white",marginLeft: "2rem"}}>
+            BINGE
           </a>
           <button
             className="navbar-toggler"
@@ -52,9 +52,11 @@ const Navbarpc = () => {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
+              <img src="https://cdn.pixabay.com/photo/2021/04/23/19/57/yorkshire-terrier-6202621_960_720.jpg" style={{borderRadius:"50%", width:"3rem", height:"3rem"}}/>
+            {/*<button className="btn btn-outline-success" type="submit">
                 Search
-              </button>
+  </button>*/}
+  <div className="user">Mohit</div>
             </form>
           </div>
         </div>
