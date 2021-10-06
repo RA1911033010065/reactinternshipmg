@@ -11,8 +11,8 @@ const CustomRow = ({title, link}) => {
 
     // Options for react-youtube
     const opts = {
-        height: "390",
-        width: "80%",
+        height: "420",
+        width: "74%",
         playerVars: {
             autoplay: 1,
         },

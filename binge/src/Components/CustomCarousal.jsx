@@ -61,7 +61,7 @@ const CustomCarousal = () => {
   
   const opts = {
     height: "390",
-    width: "80%",
+    width: "85%",
     playerVars: {
       autoplay: 1,
       origin: 'http://localhost:3000',
@@ -102,9 +102,13 @@ const CustomCarousal = () => {
           );
         })}
       </Carousel>
-      <div className="v" style={{ backgroundColor: "#363945" ,justifyContent:"center"} }>
+      <div style={{ backgroundColor: "#363945"}}>
+        <div style={{marginLeft:"8rem"}}>
         { trailerUrl && <Youtube videoId={trailerUrl} opts={opts} />}
+        </div>
+        
     </div>
+
     </>
   )
 }
