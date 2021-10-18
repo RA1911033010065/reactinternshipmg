@@ -69,7 +69,7 @@ const CustomNavbar = () => {
 
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    KIDSS
+                                    KIDS
                                 </a>
                             </li>
                         </ul>
